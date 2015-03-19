@@ -1,6 +1,12 @@
 # Objects
 *.o
 
-# Executable
+# Executables
 main
+test
+
+# IDE
+*.sublime-project
+*.sublime-workspace
+
 

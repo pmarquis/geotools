@@ -21,3 +21,8 @@ double HaversineDistance::computeDistance(double lat1, double long1, double lat2
     return distance;
 }
 
+double HaversineDistance::computeDistance(std::pair<double, double>& location1, std::pair<double, double>& location2)
+{
+    return computeDistance(location1.first, location1.second, location2.first, location2.second);
+}
+
